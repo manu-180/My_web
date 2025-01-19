@@ -13,7 +13,7 @@ final themeNotifyProvider =
 
 // Clase ThemeNotify que extiende StateNotifier
 class ThemeNotify extends StateNotifier<AppTheme> {
-  ThemeNotify() : super(AppTheme()) {
+  ThemeNotify() : super(AppTheme(selectedColor: 3)) {
     _loadPreferences();
   }
 
